@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research and coursework projects from my CV.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [Research, Coursework]
 horizontal: false

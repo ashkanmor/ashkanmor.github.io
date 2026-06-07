@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Peer-reviewed and under-review publications in efficient AI systems, in-memory computing, and hardware acceleration.
+title: Publications
+description:
 nav: true
 nav_order: 1
 ---

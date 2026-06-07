@@ -1299,6 +1299,27 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
+.profile .more-info .profile-email {
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+
+.profile .more-info .profile-scholar-icon {
+  font-size: 2.3rem;
+  width: 1.8rem;
+  text-align: center;
+}
+
+.profile .more-info .profile-linkedin-icon {
+  font-size: 2.0rem;
+  width: 1.8rem;
+  text-align: center;
+}
+
+.selected-publications-heading {
+  margin-top: 3rem;
+}
+
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);

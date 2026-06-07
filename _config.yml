@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ashkan
 middle_name: 
 last_name: Moradifirouzabadi
-email: ashkan@ucsd.edu
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. candidate in Computer Engineering at UC San Diego working on hardware-algorithm co-design,
   LLM optimization, in-memory computing, VLSI, and computer architecture.
@@ -114,7 +114,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  The best way to reach me is by email.
+  ashkan [at] ucsd [dot] edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
