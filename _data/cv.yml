@@ -2,96 +2,161 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ashkan Moradifirouzabadi
+    - name: Email
+      value: <a href="mailto:ashkan@ucsd.edu">ashkan@ucsd.edu</a>
+    - name: Location
+      value: La Jolla, CA
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=i7vjNG4AAAAJ&hl=en">i7vjNG4AAAAJ</a>
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/ashkan-moradi-fir98/">ashkan-moradi-fir98</a>
+
+- title: Research Interests
+  type: list
+  contents:
+    - Hardware-algorithm co-design
+    - LLM optimization
+    - In-memory computing
+    - VLSI
+    - Computer architecture
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Engineering
+      institution: University of California, San Diego
+      year: Jan 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Expected graduation: Mar 2027"
+        - "GPA: 4.00/4.00"
+        - "Advisor: Prof. Mingu Kang"
+    - title: M.S. in Computer Engineering
+      institution: University of California, San Diego
+      year: Jan 2022 - Mar 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 4.00/4.00"
+        - "Advisor: Prof. Mingu Kang"
+    - title: B.Sc. in Electrical Engineering
+      institution: University of Tehran
+      year: Sep 2016 - Feb 2021
+      description:
+        - "Overall GPA: 3.73/4.00"
+        - "Major GPA: 4.00/4.00"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Technology Research Intern
+      institution: Intel Corporation, Hillsboro, OR
+      year: Jun 2024 - Sep 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Hardware accelerator design for large language models.
+        - "Manager: Ian Young"
+    - title: Research Assistant
+      institution: Vertically-integrated VLSI Information Processing (VVIP) Lab, UC San Diego
+      year: Jan 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Developing large-scale hardware accelerators for deep learning models from architecture and algorithm design to chip fabrication.
+        - "PI: Prof. Mingu Kang"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: STAR-KV Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control
+      institution: Forty-third International Conference on Machine Learning (ICML), Spotlight
+      year: 2026
+      description:
+        - "Authors: Priyansh Bhatnagar*, Ashkan Moradifirouzabadi*, S. Yang, S. Lee, J. Choi, and M. Kang"
+    - title: An Analog and Digital Hybrid Attention Accelerator for Transformers with Charge-based In-memory Computing
+      institution: IEEE 50th European Solid State Electronics Research Conference (ESSERC)
+      year: 2024
+      description:
+        - "Authors: Ashkan Moradifirouzabadi, D. S. Dodla, and M. Kang"
+    - title: HyAtt A Hybrid Attention Accelerator for Transformers with Analog In-memory Computing
+      institution: IEEE Journal of Solid-State Circuits (JSSC)
+      year: 2025
+      description:
+        - "Authors: Ashkan Moradifirouzabadi and M. Kang"
+    - title: Sparse Attention Acceleration with Synergistic In-memory Pruning and On-chip Recomputation
+      institution: 55th IEEE/ACM International Symposium on Microarchitecture (MICRO)
+      year: 2022
+      description:
+        - "Authors: A. Yazdanbakhsh*, Ashkan Moradifirouzabadi*, Z. Li*, and M. Kang"
+    - title: TAILOR Token-Adaptive Low-Rank KV Cache Compression for PIM-Accelerated LLM Inference
+      institution: Under review at MICRO
+      year: 2026
+      description:
+        - "Authors: Ashkan Moradifirouzabadi*, Priyansh Bhatnagar*, et al."
+    - title: End-to-end Acceleration of Generative Models with Runtime Regularized KV Cache Management
+      institution: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+      year: 2025
+      description:
+        - "Authors: Ashkan Moradifirouzabadi and M. Kang"
+    - title: Efficient Transformer Accelerator via Reconfiguration for Encoder and Decoder Dual Modes with Sparsity-Aware Data Mapping
+      institution: ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED)
+      year: 2024
+      description:
+        - "Authors: C. E. Song*, Ashkan Moradifirouzabadi*, T. Rosing, and M. Kang"
+    - title: SpecPCM A Low-power PCM-based In-Memory Computing Accelerator for Full-stack Mass Spectrometry Analysis
+      institution: IEEE Journal on Exploratory Solid-State Computational Devices and Circuits (JXCDC)
+      year: 2024
+      description:
+        - "Authors: K. Fan, Ashkan Moradifirouzabadi, et al."
+    - title: FeNOMS Enhancing Open Modification Spectral Library Search with In-Storage Processing of Ferroelectric NAND Flash
+      institution: International Conference on Computer-Aided Design (ICCAD)
+      year: 2025
+      description:
+        - "Authors: S. Pinge, Ashkan Moradifirouzabadi, et al."
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python
+        - C/C++
+        - TCL
+        - MATLAB
+    - title: Machine Learning Frameworks
+      items:
+        - PyTorch
+    - title: Hardware Development
+      items:
+        - Verilog
+        - SystemVerilog
+        - Cadence Innovus
+        - Cadence Virtuoso
+        - Synopsys Design Compiler
+        - Cadence Xcelium
+        - Xilinx Vivado
+        - Altera Quartus
+        - ModelSim
+        - Altium Designer
+        - PCB Artist
+
+- title: Selected Courses
+  type: list
+  contents:
+    - "ECE 260B: VLSI Integrated Circuits & Systems Design (A)"
+    - "ECE 284: VLSI Implementation for Machine Learning (A+)"
+    - "ECE 260C: VLSI Advanced Topics (A)"
+    - "ECE 285: Introduction to Visual Learning (A)"
+    - "ECE 226: Deep Learning Acceleration on Hardware (A+)"
+    - "CSE 240A: Principles of Computer Architecture (A)"
+    - "CSE 251A: Principles of Machine Learning - Learning Algorithms (A)"
+    - "CSE 257: Search and Optimization (A)"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - UCSD Electrical and Computer Engineering Department Ph.D. Fellowship
+        - IEEE/ACM International Symposium on Microarchitecture Student Travel Grant
+    - year: 2021
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Finalist for the Best Undergraduate Project Award, Tehran, Iran
+    - year: 2016
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Ranked 263rd among 160,000+ participants in the National University Entrance Exam for B.Sc.
